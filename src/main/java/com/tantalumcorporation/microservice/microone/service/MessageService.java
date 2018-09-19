@@ -46,13 +46,10 @@ public class MessageService {
     }
      public List<Message> getAllLimit(int limit)
      {
-         List<Message> all = this.getAll();
-         List<Message> messages = new ArrayList<Message>();
-         int start = limit - 1;
-         for (int i = start; i >= 0; i--){
-             messages.add(all.get(i));
-         }
-         return messages;
+         List<Message> messages = this.getAll();
+         int to = messages.size() > 0 ? messages.size(): 0;
+         int from = limit >= messages.size() ? 0 : (messages.size() - limit);
+         return messages.subList(from , to);
      }
 
     public Message save(Message message)

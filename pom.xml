@@ -68,8 +68,6 @@
             <version>2.9.6</version>
         </dependency>
 
-
-
     </dependencies>
 
 	<dependencyManagement>
@@ -91,6 +89,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+        <finalName>tantalum-docker</finalName>
 	</build>
 
 
