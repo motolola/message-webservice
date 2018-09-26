@@ -12,6 +12,7 @@ public class Animal {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
+    @Path("show")
     public List<String> showAnimal()
     {
         List<String> user = new ArrayList<>();
