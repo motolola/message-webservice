@@ -2,7 +2,7 @@
 <h1>Message Service</h1>
 Currently hosted on <a href="https://tantalum.herokuapp.com/">Heroku</a>
 <p>
-<h3>List if end points.</h3>
+<h3>List of end points.</h3>
 <p><strong><a href="#">api/message/add</a></strong></p>
 <h4>Method:POST</h4>
 <p>
