@@ -1,4 +1,4 @@
-package com.tantalumcorporation.microservice.microone;
+package com.tantalumcorporation.microservice.microone.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
